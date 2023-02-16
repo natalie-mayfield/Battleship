@@ -5,7 +5,11 @@ To run the game, navigate to the src directory and run the main executable. The 
 
 File Structure
 
-main.cpp: contains the main C++ source code for the game with which contains the function that runs the game, validates both the player and AI moves, and defines the win conditions
+battle.cpp: contains the main C++ source code for the game with which contains the function that runs the game, validates both the player and AI moves, and defines the win conditions
+
+battle.h: header file for the battle.cpp file, defining the board set up, move validation functions, and other data structures for the board and ship display
+
+battleship_type_definitions.h: header file that defines hit and miss markers, and other numerical constants for the ship size, status, and direction (vertical or horizontal)
 
 memory_functions_mayfiel.cpp: contains the game logic, including game modes, AI turns, and updates to the AI memory
 
